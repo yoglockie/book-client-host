@@ -1,0 +1,44 @@
+.category ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.category ul li{
+    font-size: 20px;
+    margin-right: 25px;
+    
+}
+.category ul a{
+ text-decoration: none;
+ color: black;
+}
+.category ul a:hover{
+ text-decoration: underline;
+ color: blue;
+}
+
+.search-button {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+.card-container {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .author-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px;
+  }

@@ -1,0 +1,156 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .search-section {
+    flex: 2;
+    text-align: center;
+    
+  }
+
+  .search-section svg{
+     font-size: 20px;
+  }
+  
+  .cart-icon {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Add some styling for the logo, search input, and cart icon if needed */
+  .logo img {
+    max-width: 100%;
+    height: 50px;
+    display: block;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 80%;
+  }
+  
+  .cart-icon svg {
+    font-size: 30px;
+  }
+  
+  #s-icon{
+      
+      margin-left: 5px;
+  }
+
+
+
+#lbtn{
+  background-color: white;
+  color: gray;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+#lbtn:hover{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+
+  .cart-count {
+    background-color: blueviolet; /* Choose a color for the count background */
+    color: #ffffff; /* Choose a color for the count text */
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 6px;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
+
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #57A8CC;
+    padding: 15px;
+    color: white;
+  }
+  
+  .left-section img {
+    max-height: 40px; /* Adjust the height as needed */
+    margin-left: 20px;
+  }
+  
+  .middle-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .middle-section li {
+    margin-right: 20px;
+  }
+  
+  .middle-section a {
+    text-decoration: none;
+    color: white;
+   
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .login-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .burger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .middle-section {
+      display: none;
+    }
+  
+    
+  }
+
+  
