@@ -9,7 +9,7 @@ const Motivational = () => {
       
       const fetcheddata = async()=>{
           try {
-            const response = await fetch("http://localhost:8080/products/motivational");
+            const response = await fetch("https://book-server-host.onrender.com//products/motivational");
             const data = await response.json();
             console.log(data)
             setproducts(data);

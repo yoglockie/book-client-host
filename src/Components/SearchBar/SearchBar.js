@@ -18,7 +18,7 @@ const SearchBar = () => {
       
     const fetcheddata = async()=>{
         try {
-          const response = await fetch("http://localhost:8080/products/all");
+          const response = await fetch("https://book-server-host.onrender.com//products/all");
           const data = await response.json();
           console.log("i am in")
           console.log(data)

@@ -8,7 +8,7 @@ const Buisness = () => {
       
       const fetcheddata = async()=>{
           try {
-            const response = await fetch("http://localhost:8080/products/business");
+            const response = await fetch("https://book-server-host.onrender.com//products/business");
             const data = await response.json();
             console.log(data)
             setproducts(data);

@@ -19,7 +19,7 @@ const AddProduct = () => {
   const handleSubmit=async(e)=>{
        e.preventDefault();
        try {
-          await axios.post("http://localhost:8080/products/add",formData);
+          await axios.post("https://book-server-host.onrender.com//products/add",formData);
 
           setformData({
             id:"",

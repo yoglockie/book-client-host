@@ -9,7 +9,7 @@ const Mystery = () => {
       
       const fetcheddata = async()=>{
           try {
-            const response = await fetch("http://localhost:8080/products/mystery");
+            const response = await fetch("https://book-server-host.onrender.com//products/mystery");
             const data = await response.json();
             console.log(data)
             setproducts(data);

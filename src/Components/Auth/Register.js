@@ -13,7 +13,7 @@ const Register = () => {
         
         e.preventDefault();
         try {
-            const res =await axios.post("http://localhost:8080/products/signup",{name,email,password});
+            const res =await axios.post("https://book-server-host.onrender.com//products/signup",{name,email,password});
             console.log(res);
             if (res.data.errors) {
               // Handle validation errors here
